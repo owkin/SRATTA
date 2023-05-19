@@ -6,7 +6,7 @@ setuptools.setup(
     author="Owkin",
     include_package_data=True,
     packages=setuptools.find_packages(),
-    python_requires="~=3.7",
+    python_requires="~=3.8",
     install_requires=[
         "Pillow==9.0.1",
         "cycler==0.11.0",

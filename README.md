@@ -22,14 +22,14 @@ This repository is a python implementation of the paper [SRATTA: Sample Re-ATTri
 First of all you need to clone the repository
 
 ```bash
-git clone https://github.com/owkin/FL-attacks-and-defenses.git
-cd FL-attacks-and-defenses
+git clone https://github.com/owkin/sratta_code.git
+cd sratta_code
 ```
 
-We recommend using a fresh virtual environment to avoid conflict between dependencies. We used a conda environment with python 3.7.
+We recommend using a fresh virtual environment to avoid conflict between dependencies. We used a conda environment with python 3.8.
 
 ```bash 
-conda create --name sratta python=3.7
+conda create --name sratta python=3.8
 conda activate sratta
 
 ```
