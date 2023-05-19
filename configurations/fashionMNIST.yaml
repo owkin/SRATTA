@@ -1,0 +1,32 @@
+parameters:
+    batch_size: 8
+    num_updates: 5
+    num_rounds: 20
+    dataset_size: 100
+    test_dataset_size: 100
+    max_sample: 5
+    num_trainings: 20
+    num_centers: 5
+    lr:
+        type: constant
+        value: 0.5
+    abs_detection_treshold: 1e-7
+    rel_detection_treshold: 1e-2
+    num_hidden_neurons: 1000
+    dataset: fashion_mnist
+    num_exp_repeat: 10
+    seed: 10
+    n_jobs: 1
+    prun_risky_rel_lambda_threshold: 0
+    prun_risky_update_threshold: 0
+    use_kmeans_for_clustering: False
+    split_with_dirichlet: False
+    dirichlet_param: 10.
+
+experiment:
+    dataset_folder: ./datasets
+    temp_directory_location: ./temp
+    experiment_name: experiment_name
+    log_data: False
+    run_name: fashion_mnist_10
+    save_dir: ./mlflow/mlruns
