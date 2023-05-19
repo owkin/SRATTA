@@ -47,12 +47,13 @@ pip install -e .
 To run a experiment, run the `run_experiment.py` script. You will need to select a configuration file. Several of them are provided in the [`configuration`](./configurations/) folder.
 
 ```bash
-python run_experiment.py --config "configurations/fashionMNIST.yaml" --run_name "my_first_run" ----num_exp_repeat 1 --save_dir "./mlflow/mlruns"
+python run_experiment.py --config "configurations/fashionMNIST.yaml" --run_name "my_first_run" --num_exp_repeat 1 --save_dir "./mlflow/mlruns"
 ```
 
-To track the metric of the experiment, we use [mlflow](https://mlflow.org/). To start a `mlflow` server, and watch your results, please run:
+To track the metric of the experiment, we use [mlflow](https://mlflow.org/). To start a `mlflow` server, and watch your results, please open a new terminal, activate the virtual environment, and run:
 
 ```bash
+conda activate sratta
 mlflow ui --backend-store-uri ./mlflow/mlruns
 ```
 
