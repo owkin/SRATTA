@@ -50,9 +50,12 @@ To run a experiment, run the `run_experiment.py` script. You will need to select
 python run_experiment.py --config "configurations/fashionMNIST.yaml" --run_name "my_first_run" --num_exp_repeat 1 --save_dir "./mlflow/mlruns"
 ```
 
-To track the metric of the experiment, we use [mlflow](https://mlflow.org/). To start a `mlflow` server, and watch your results, please open a new terminal, activate the virtual environment, and run:
+To track the metric of the experiment, we use [mlflow](https://mlflow.org/). To start a `mlflow` server, and watch your results, please open a new terminal, activate the virtual environment, cd
+to the directory of the cloned repository and launch the mlflow UI:
 
 ```bash
+# change path below to match your installation path
+cd /path/towards/sratta/repo/sratta_code
 conda activate sratta
 mlflow ui --backend-store-uri ./mlflow/mlruns
 ```
