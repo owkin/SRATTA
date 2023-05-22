@@ -22,7 +22,7 @@ This repository is a python implementation of the paper [SRATTA: Sample Re-ATTri
 First of all you need to clone the repository
 
 ```bash
-git clone https://github.com/owkin/sratta_code.git
+git clone https://github.com/owkin/sratta.git
 cd sratta_code
 ```
 
@@ -167,7 +167,7 @@ bash scripts/reproduce_defense_results.sh
 If our work helps you in your research, consider citing us.
 
 ```bibtex
-@article{marchant2023sratta,
+@article{marchand2023sratta,
   title={SRATTA: Sample Re-ATTribution Attack of Secure Aggregation in Federated Learning.},
   author={Marchand, Tanguy and Loeb, Regis and Ogier du Terrail, Jean and Marteau-Ferey, Ulysse and Pignet,  Arthur},
   year={2023},
