@@ -22,8 +22,8 @@ This repository is a python implementation of the paper [SRATTA: Sample Re-ATTri
 First of all you need to clone the repository
 
 ```bash
-git clone https://github.com/owkin/sratta.git
-cd sratta_code
+git clone https://github.com/owkin/SRATTA.git
+cd SRATTA
 ```
 
 We recommend using a fresh virtual environment to avoid conflict between dependencies. We used a conda environment with python 3.8.
