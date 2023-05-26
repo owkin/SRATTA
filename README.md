@@ -169,7 +169,7 @@ If our work helps you in your research, consider citing us.
 ```bibtex
 @article{marchand2023sratta,
   title={SRATTA: Sample Re-ATTribution Attack of Secure Aggregation in Federated Learning.},
-  author={Marchand, Tanguy and Loeb, Regis and Ogier du Terrail, Jean and Marteau-Ferey, Ulysse and Pignet,  Arthur},
+  author={Marchand, Tanguy and Loeb, Regis and Ogier du Terrail, Jean and Marteau-Ferey, Ulysse and Pignet, Arthur},
   year={2023},
 }
 ```
